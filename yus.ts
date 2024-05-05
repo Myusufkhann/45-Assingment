@@ -1,2 +1,9 @@
-let personName: string= "YUSUF";
-console.log(`hellow ${personName}, would you like to learn some python today?`)
+// lower case
+let personName: string ="Yusuf";
+console.log("lowercase:", personName.toLowerCase());
+
+//upper case
+console.log("uppercase:", personName.toUpperCase());
+
+//title case
+console.log("titlecase:", personName.replace(/\bw/g,c => c.toUpperCase()));
