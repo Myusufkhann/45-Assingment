@@ -1,9 +1,3 @@
-// lower case
-let personName: string ="Yusuf";
-console.log("lowercase:", personName.toLowerCase());
-
-//upper case
-console.log("uppercase:", personName.toUpperCase());
-
-//title case
-console.log("titlecase:", personName.replace(/\bw/g,c => c.toUpperCase()));
+let qoute: string= "A person who never made a mistake never tried anything new.";
+let author: string= "Albert Einstein";
+console.log(`${author} once said, "${qoute}"`);
